@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menu_item_home">
+
+    <fragment
+        android:id="@+id/menu_item_home"
+        android:name="iv.nakonechnyi.test.fragments.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home"/>
+    <fragment
+        android:id="@+id/menu_item_search"
+        android:name="iv.nakonechnyi.test.fragments.SendToFragment"
+        android:label="SendToFragment" />
+    <fragment
+        android:id="@+id/menu_item_add_photo"
+        android:name="iv.nakonechnyi.test.fragments.AddFragment"
+        android:label="AddFragment" />
+    <fragment
+        android:id="@+id/menu_item_love_it"
+        android:name="iv.nakonechnyi.test.fragments.ToLoveFragment"
+        android:label="ToLoveFragment" />
+    <fragment
+        android:id="@+id/menu_item_profile_image"
+        android:name="iv.nakonechnyi.test.fragments.ProfileFragment"
+        android:label="ProfileFragment" />
+</navigation>

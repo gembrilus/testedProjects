@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.appbar.MaterialToolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:background="?android:windowBackground"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btn_logo"
+                android:layout_width="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_height="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/app_image"/>
+
+            <TextView
+                android:id="@+id/tw_logo"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="center_horizontal|center_vertical"
+                android:paddingTop="8dp"
+                android:fontFamily="@font/billabong"
+                android:textSize="36sp"
+                android:text="Instagram"/>
+
+
+            <ImageView
+                android:id="@+id/btn_send_to"
+                android:layout_width="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_height="24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_send_to"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.appbar.MaterialToolbar>

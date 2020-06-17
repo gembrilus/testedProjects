@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Instagram</string>
+    <string name="text_when_on_logo_clicked">Invoke an application creating photos or make a photo!</string>
+    <string name="text_when_on_send_to_clicked">Show AlertDialog with actions!</string>
+</resources>
